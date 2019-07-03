@@ -1,0 +1,139 @@
+﻿.wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "logo header header"
+                         "nav nav nav"
+                         "main main side" 
+                         "footer footer footer";
+    grid-gap: 10px;
+}
+
+.box {
+    border-radius: 10px;
+    border: black 2px solid;
+}
+
+.logo {
+    grid-area: logo;
+    background: white;
+    font-family: 'Fjalla One', sans-serif;
+    background-image: url(../Images/Rathkeale.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #024b20;
+}
+
+
+.banner {
+    grid-area: header;
+    background: #024b20;
+    color: white;
+    text-decoration: underline overline;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 800%;
+    text-decoration: overline underline;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    color: #ababab;
+    background: #024b20;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.sidebar {
+    grid-area: side;
+    text-align: center;
+    background: #ababab;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main {
+    grid-area: main;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    background: #252525;
+    color: #ababab;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:link {
+    color: #ababab;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+    color: #aa2222;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:visited {
+    color: #ababab;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sidebar a {
+    color: #aa2222;
+    font-family: 'Oswald', sans-serif;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle { 
+    text-align: center;
+}
+
+.left {
+    text-align:Left;
+    margin-left: 13px;
+}
+
+ol {
+    text-align:left; 
+}
+
+ul {
+    text-align: left;
+}
+
+.main a:link {
+    color: #aa2222;
+}
+
+.main a:visited {
+    color: #aa2222;
+}
+
+.sidebar a:link {
+    color: #aa2222;
+}
+
+.sidebar a:visited {
+    color: #aa2222;
+}
+
+/*Image Styling*/
+
+.main img {
+    text-align: center;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+

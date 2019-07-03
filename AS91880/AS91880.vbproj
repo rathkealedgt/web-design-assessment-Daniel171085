@@ -92,7 +92,16 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="Images\HockeyPlayer.jpeg" />
+    <Content Include="Web\Coach.html" />
+    <Content Include="Web\Pioneer_Hockey.html" />
+    <Content Include="Web\Crux_Hockey.html" />
+    <Content Include="Web\Senior_Collage.html" />
+    <Content Include="Web\Rams_Hockey.html" />
+    <Content Include="Web\2nd_11.html" />
+    <Content Include="Web\1st_11.html" />
+    <Content Include="Web\CSS.css" />
+    <Content Include="Web\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
